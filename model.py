@@ -17,7 +17,7 @@ def _init_weights(model):
             if m.bias is not None:
                 nn.init.constant_(m.bias, 0)
 
-def cnn_model(num_classes):
+def cnn_model():
     model = nn.Sequential(
     # A first convolution block
     nn.Conv2d(in_channels=3, out_channels=16, kernel_size=3),
@@ -35,11 +35,10 @@ def cnn_model(num_classes):
     nn.MaxPool2d(2),
     # A final classifier
     nn.Flatten(),
-    nn.Linear(in_features=86528, out_features=64),
+    nn.Linear(in_features=14112, out_features=64),
     nn.ReLU(),
     nn.Dropout(p=0.1),
-    nn.Linear(in_features=64, out_features=num_classes),
-    nn.Sigmoid(),
+    nn.Linear(in_features=64, out_features=1),
     )
 
     _init_weights(model)
