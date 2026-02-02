@@ -48,7 +48,6 @@ class BinaryDataset(Dataset):
     def __len__(self):
         return len(self.subset)
     
-
 class NpArrayDataset(Dataset):
     def __init__(
         self,

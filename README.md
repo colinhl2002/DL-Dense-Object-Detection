@@ -11,12 +11,13 @@ https://openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2
 Ce repository GitHub contient plusieurs fonctions Python qui servent à stocker nos fonctions / classes d'intérêts, un dossier qui contient les ressources et un notebook jupyter qui permet de parcourir le sujet :
 
 * **eval.py** : fonction predict_one_epoch
-* **loss.py** : Classe FocalLoss qui implémente la fonction loss d'intérêt pour la classification Binaire et Multi-classes
+* **loss.py** : classe FocalLoss qui implémente la fonction loss d'intérêt pour la classification Binaire et Multi-classes
 * **model.py** : fonction cnn_model qui définie l'architecture de notre réseau de neurones CNN
 * **train.py** : fonction train_one_epoch
-* **utils.py** : Classe NpArrayDataset qui permet de charger des images numpy dans un format compatible avec Pytorch et fonction reduce_datasets qui permet de créer un déséquilibre de classe dans notre dataset
+* **utils.py** : classe NpArrayDataset qui permet de charger des images numpy dans un format compatible avec Pytorch et fonction reduce_datasets qui permet de créer un déséquilibre de classe dans notre dataset
 
 * **image_classification.ipynb** : notebook jupyter dans lequel on va entraîner notre modèle CNN sur le dataset "Dog vs Cat" déséquilibré avec l'utilisation de la fonction BCELoss() dans un premier temps, puis FocalLoss() dans un second temps
+**Note** : Ce notebook Jupyter peut facilement être exécuté en local.
 
 * **ressources** : dossier qui contient la présentation powerpoint du sujet et le pdf de l'article "Focal Loss for Dense Object Detection"
 
@@ -50,5 +51,5 @@ Pour compléter ce notebook :
 - une vidéo de présentation du sujet (accessiblke sur YouTube via le lien : https://youtu.be/FZB2hb3dPGI)
 
 ## Aperçu
-    
+
 ![Capture d'écran de l'application](votre-lien-image.png)
