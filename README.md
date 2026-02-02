@@ -49,7 +49,3 @@ Pour compléter ce notebook :
 - une présentation Powerpoint du sujet (dans le dossier ressources de ce repo)
 - le PDF de l'article 'Focal Loss for Dense Object Detection' (dans le dossier ressources de ce repo)
 - une vidéo de présentation du sujet (accessiblke sur YouTube via le lien : https://youtu.be/FZB2hb3dPGI)
-
-## Aperçu
-
-![Capture d'écran de l'application](votre-lien-image.png)
